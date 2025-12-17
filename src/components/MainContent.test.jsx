@@ -8,7 +8,7 @@ import MainContent from './MainContent';
 // Add yet another comment
 
 describe('MainContent', () => {
-  it('should render a button', ) => {
+  it('should render a button', () => {
     render(<MainContent />);
 
     expect(screen.getByRole('button')).toBeInTheDocument();
